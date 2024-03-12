@@ -1,0 +1,9 @@
+@use "../base" as b;
+
+.container {
+  background: b.$background-container;
+  width: 360px;
+  height: 615px;
+  border-radius: 0.5em;
+  padding: 2em;
+}
