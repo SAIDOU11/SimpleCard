@@ -1,0 +1,16 @@
+@use "../utils" as u;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text-color);
+  font-family: u.$nunito-font;
+}
