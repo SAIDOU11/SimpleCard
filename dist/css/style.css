@@ -25,6 +25,12 @@ img {
   border-radius: 0.5em;
 }
 
+@media (min-width: 900px) {
+  svg {
+    margin-top: 2em;
+  }
+}
+
 :root {
   --background: #2d2e36;
   --text-header: #fff;
@@ -46,8 +52,29 @@ p {
 
 .container {
   background: #383a45;
-  width: 360px;
-  height: 615px;
+  max-width: 80%;
+  min-height: 70%;
+  max-height: 80%;
   border-radius: 0.5em;
   padding: 2em;
+}
+@media (min-width: 900px) {
+  .container {
+    display: grid;
+    grid-gap: 1.5em;
+    height: 400px;
+    max-width: 730px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 1em;
+  }
+}
+.container__image, .container__body {
+  padding: 1em;
+}
+@media (min-width: 1900px) {
+  .container__image, .container__body {
+    padding: 2em;
+  }
 }/*# sourceMappingURL=style.css.map */

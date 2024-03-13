@@ -2,8 +2,29 @@
 
 .container {
   background: b.$background-container;
-  width: 360px;
-  height: 615px;
+  max-width: 80%;
+  min-height: 70%;
+  max-height: 80%;
   border-radius: 0.5em;
+
   padding: 2em;
+  @media (min-width: 900px) {
+    display: grid;
+    grid-gap: 1.5em;
+    height: 400px;
+    max-width: 730px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    padding: 1em;
+  }
+
+  &__image,
+  &__body {
+    padding: 1em;
+
+    @media (min-width: 1900px) {
+      padding: 2em;
+    }
+  }
 }
