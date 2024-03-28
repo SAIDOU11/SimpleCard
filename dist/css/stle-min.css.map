@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\..\\stle.scss"],"names":[],"mappings":"AAAA,qBAGE,qBAAA,CAEF,UAEE,QAAA,CACA,SAAA,CAGF,KACE,YAAA,CACA,eAAA","file":"stle-min.css","sourcesContent":["*,\r\n*::before,\r\n*::after {\r\n  box-sizing: border-box;\r\n}\r\nhtml,\r\nbody {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nbody {\r\n  height: 100vh;\r\n  background: #000;\r\n}\r\n"]}
